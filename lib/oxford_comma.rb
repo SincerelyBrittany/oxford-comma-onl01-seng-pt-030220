@@ -20,7 +20,6 @@ def oxford_comma(array)
   lastword = array[-1]
   array.pop
   new_array = array << "and "
-  puts new_array.join(", ") + lastword
   return new_array.join(", ") + lastword
 end
 end
