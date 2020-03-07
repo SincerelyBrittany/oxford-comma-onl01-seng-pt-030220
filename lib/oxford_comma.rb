@@ -24,7 +24,7 @@ def oxford_comma(array)
 end
 end
 
-puts oxford_comma(["kiwi", "durian"])
+puts oxford_comma(["kiwi"])
 
 # "kiwi, durian, and starfruit"
 
