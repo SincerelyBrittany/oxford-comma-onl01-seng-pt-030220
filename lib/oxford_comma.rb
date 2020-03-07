@@ -16,6 +16,7 @@ def oxford_comma(array)
     num = array[0]
     num
   else  
+  new_array =[]
   lastword = array[-1]
   array.pop
   new_array = array << "and "
